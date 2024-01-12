@@ -389,18 +389,94 @@
     </div>
     <!-- Mobile Menu end -->
     <!-- Main Menu area start-->
-   <!--  <div class="main-menu-area mg-tb-40">
+     <div class="main-menu-area mg-tb-40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-                        <li class="active"><a data-toggle="tab" href="#Home"><i class="notika-icon notika-house"></i> Home</a>
+                        <li class="active"><a data-toggle="tab" href="#Home"><i class="notika-icon notika-house"></i> Dashboard</a>
                         </li>
-                        <li><a data-toggle="tab" href="#mailbox"><i class="notika-icon notika-mail"></i> Email</a>
+                        <li><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-mail"></i> Personalize Dashboard</a>
+                                <div role="menu" class="dropdown-menu message-dd task-dd animated zoomIn" style="width: 1000px;margin-left: 0px;">
+                                    <div class="hd-mg-tt">
+                                        <h2>Personalize Your Dashboard</h2>
+                                    </div>
+                                    <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act fm-cmp-mg">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts2" class="ts-label">Pencapaian Dokter Spesialis</label>
+                                                <input id="ts2" type="checkbox" hidden="hidden">
+                                                <label for="ts2" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act sm-res-mg-t-10">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts3" class="ts-label">Pasien per Asuransi</label>
+                                                <input id="ts3" type="checkbox" hidden="hidden">
+                                                <label for="ts3" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act mg-t-30">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts4" class="ts-label">Pasien per PPK Perujuk</label>
+                                                <input id="ts4" type="checkbox" hidden="hidden">
+                                                <label for="ts4" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act mg-t-30">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts5" class="ts-label">Pasien per Kabuaaten</label>
+                                                <input id="ts5" type="checkbox" hidden="hidden">
+                                                <label for="ts5" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act mg-t-30">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts6" class="ts-label">Yop 5 Pasien Asuransi</label>
+                                                <input id="ts6" type="checkbox" hidden="hidden">
+                                                <label for="ts6" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act mg-t-30">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts7" class="ts-label">Top 5 Pasien Demografi</label>
+                                                <input id="ts7" type="checkbox" hidden="hidden">
+                                                <label for="ts7" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act mg-t-30">
+                                            <div class="nk-toggle-switch" data-ts-color="green">
+                                                <label for="ts8" class="ts-label">Ulasan Google</label>
+                                                <input id="ts8" type="checkbox" hidden="hidden">
+                                                <label for="ts8" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
                         </li>
-                        <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Interface</a>
+                        <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Sinkronisasi Data</a>
                         </li>
-                        <li><a data-toggle="tab" href="#Charts"><i class="notika-icon notika-bar-chart"></i> Charts</a>
+                        <!--<li><a data-toggle="tab" href="#Charts"><i class="notika-icon notika-bar-chart"></i> Charts</a>
                         </li>
                         <li><a data-toggle="tab" href="#Tables"><i class="notika-icon notika-windows"></i> Tables</a>
                         </li>
@@ -409,9 +485,9 @@
                         <li><a data-toggle="tab" href="#Appviews"><i class="notika-icon notika-app"></i> App views</a>
                         </li>
                         <li><a data-toggle="tab" href="#Page"><i class="notika-icon notika-support"></i> Pages</a>
-                        </li>
+                        </li>-->
                     </ul>
-                    <div class="tab-content custom-menu-content">
+                    <!--<div class="tab-content custom-menu-content">
                         <div id="Home" class="tab-pane in active notika-tab-menu-bg animated flipInX">
                             <ul class="notika-main-menu-dropdown">
                                 <li><a href="index.html">Dashboard One</a>
@@ -437,8 +513,8 @@
                                 <li><a href="compose-email.html">Compose Email</a>
                                 </li>
                             </ul>
-                        </div>
-                        <div id="Interface" class="tab-pane notika-tab-menu-bg animated flipInX">
+                        </div>-->
+                        <!--<div id="Interface" class="tab-pane notika-tab-menu-bg animated flipInX">
                             <ul class="notika-main-menu-dropdown">
                                 <li><a href="animations.html">Animations</a>
                                 </li>
@@ -523,264 +599,265 @@
                                 <li><a href="404.html">404 Page</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Main Menu area End-->
     <!-- Start Status area -->
     <h1><center>Dashboard Marketing RSIY PDHI</center></h1>
 
     <!-- Datepicker area Start-->
     <div class="atas">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="datepicker-int mg-t-30">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group nk-datapk-ctm form-elet-mg">
-                                <h4>Date Range</h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
-                                <div class="input-group date nk-int-st">
-                                    <span class="input-group-addon"></span>
-                                    <input type="text" class="form-control" value="date">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
-                                <div class="input-group date nk-int-st">
-                                    <span class="input-group-addon"></span>
-                                    <input type="text" class="form-control" value="03/19/2018">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Datepicker area End-->
-    <br>
-
-    <div class="notika-status-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
-                        <!-- <div class="row"> -->
-                            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="website-traffic-ctn">
-                                    <h2>Rp <span class="counter">100,000,000</span></h2>
-                                    <p>Target Pendapatan UGD</p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="datepicker-int mg-t-30">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg">
+                                    <h4>Date Range</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <div class="email-signle-gp">
-                                    <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
+                                    <div class="input-group date nk-int-st">
+                                        <span class="input-group-addon"></span>
+                                        <input type="text" class="form-control" value="date">
+                                    </div>
                                 </div>
                             </div>
-                            <!-- </div> -->
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
+                                    <div class="input-group date nk-int-st">
+                                        <span class="input-group-addon"></span>
+                                        <input type="text" class="form-control" value="03/19/2018">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Datepicker area End-->
+        <br>
+
+        <div class="notika-status-area">
+            <div class="container">
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
-                            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="website-traffic-ctn">
-                                    <h2><span class="counter">90,000</span></h2>
-                                    <p>Target Pasien Rawat Jalan</p>
+                            <!-- <div class="row"> -->
+                                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="website-traffic-ctn">
+                                        <h2>Rp <span class="counter">100,000,000</span></h2>
+                                        <p>Target Pendapatan UGD</p>
+                                    </div>
                                 </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="email-signle-gp">
+                                        <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <div class="email-signle-gp">
-                                    <input type="text" class="knob" value="0" data-rel="80" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
+                                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="website-traffic-ctn">
+                                        <h2><span class="counter">90,000</span></h2>
+                                        <p>Target Pasien Rawat Jalan</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="email-signle-gp">
+                                        <input type="text" class="knob" value="0" data-rel="80" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
-                            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="website-traffic-ctn">
-                                    <h2><span class="counter">50,000</span></h2>
-                                    <p>Target Pasien Rawat Inap</p>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
+                                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="website-traffic-ctn">
+                                        <h2><span class="counter">50,000</span></h2>
+                                        <p>Target Pasien Rawat Inap</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <div class="email-signle-gp">
-                                    <input type="text" class="knob" value="0" data-rel="40" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="email-signle-gp">
+                                        <input type="text" class="knob" value="0" data-rel="40" data-linecap="round" data-width="60" data-bgcolor="#E4E4E4" data-fgcolor="#00c292" data-thickness=".10" data-readonly="true" disabled>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End Status area-->
-        <!-- Start Sale Statistic area-->
-        <div class="sale-statistic-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-8 col-sm-7 col-xs-12">
-                        <div class="sale-statistic-inner notika-shadow mg-tb-30">
-                            <div class="curved-inner-pro">
-                                <div class="curved-ctn">
-                                    <h2>Pencapaian Dokter Spesialis</h2>
-                                </div>
-                            </div>
-                            <div id="container2"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-4 col-sm-5 col-xs-12">
-                        <div class="sale-statistic-inner notika-shadow mg-tb-30">
-                            <div class="curved-inner-pro">
-                                <div class="curved-ctn">
-                                    <h2>Detail Pencapaian Dokter Spesialis</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="fm-checkbox">
-                                    <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label><input type="radio" value="option1" name="x" class="i-checks"> <i></i> Pendapatan</label>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label><input type="radio" value="option2" name="x" class="i-checks"> <i></i> Volume</label>
+            <!-- End Status area-->
+            <!-- Start Sale Statistic area-->
+            <div class="sale-statistic-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-8 col-sm-7 col-xs-12">
+                            <div class="sale-statistic-inner notika-shadow mg-tb-30">
+                                <div class="curved-inner-pro">
+                                    <div class="curved-ctn">
+                                        <h2>Pencapaian Dokter Spesialis</h2>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="container7"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Sale Statistic area-->
-        <!-- Start Email Statistic area-->
-        <div class="notika-email-post-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="email-statis-inner notika-shadow">
-                            <div class="email-ctn-round">
-                                <div class="email-rdn-hd">
-                                    <h2>Jumlah Pasien per Asuransi</h2>
-                                </div>
-                                <div id="container"></div>
+                                <div id="container2"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="recent-post-wrapper notika-shadow sm-res-mg-t-30 tb-res-ds-n dk-res-ds">
-                            <div class="recent-post-ctn">
-                                <div class="recent-post-title">
-                                    <h2>Jumlah Rujukan Pasien per PPK</h2>
-                                </div>
-                            </div>
-                            <div class="recent-post-items">
-                                <div id="container3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="recent-items-wp notika-shadow sm-res-mg-t-30">
-                            <div class="rc-it-ltd">
-                                <div class="recent-items-ctn">
-                                    <div class="recent-items-title">
-                                        <h2>Jumlah Pasien per Kabupaten</h2>
+                        <div class="col-lg-8 col-md-4 col-sm-5 col-xs-12">
+                            <div class="sale-statistic-inner notika-shadow mg-tb-30">
+                                <div class="curved-inner-pro">
+                                    <div class="curved-ctn">
+                                        <h2>Detail Pencapaian Dokter Spesialis</h2>
                                     </div>
                                 </div>
-                                <div class="recent-items-inn">
-                                    <div id="container4"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Email Statistic area-->
-        <!-- Start Realtime sts area-->
-        <div class="realtime-statistic-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="add-todo-list notika-shadow mg-t-30">
-                            <div class="realtime-ctn">
-                                <div class="realtime-title">
-                                    <h2>Top 5 Pasien Asuransi </h2>
-                                </div>
-                            </div>
-                            <div class="card-box">
-                                <div class="todoapp">
+                                <div class="row">
                                     <div class="fm-checkbox">
-                                        <div class="row">
                                         <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                            <label><input type="radio" value="option1" name="a" class="i-checks"> <i></i> Tertinggi</label>
+                                            <label><input type="radio" value="option1" name="x" class="i-checks"> <i></i> Pendapatan</label>
                                         </div>
                                         <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                            <label><input type="radio" value="option2" name="a" class="i-checks"> <i></i> Terrendah</label>
-                                        </div>  
-                                        </div>                                      
-                                    </div>
-                                     <div id="container5"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="notika-chat-list notika-shadow mg-t-30 tb-res-ds-n dk-res-ds">
-                            <div class="realtime-ctn">
-                                <div class="realtime-title">
-                                    <h2>Top 5 Pasien Demografi</h2>
-                                </div>
-                            </div>
-                            <div class="card-box">
-                                <div class="chat-conversation">
-                                    <div class="fm-checkbox">
-                                        <div class="row">
-                                        <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                            <label><input type="radio" value="option1a" name="b" class="i-checks"> <i></i> Tertinggi</label>
-                                        </div>
-                                        <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                            <label><input type="radio" value="option2a" name="b" class="i-checks"> <i></i> Terrendah</label>
-                                        </div>
+                                            <label><input type="radio" value="option2" name="x" class="i-checks"> <i></i> Volume</label>
                                         </div>
                                     </div>
-                                     <div id="container6"></div>
                                 </div>
+                                <div id="container7"></div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-        <!-- End Realtime sts area-->
-
-        <!-- Start Google Review-->
-        <div class="realtime-statistic-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="realtime-wrap notika-shadow mg-t-30">
-                            <div class="realtime-ctn">
-                                <div class="realtime-title">
-                                    <h2>Ulasan Google</h2>
+            <!-- End Sale Statistic area-->
+            <!-- Start Email Statistic area-->
+            <div class="notika-email-post-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="email-statis-inner notika-shadow">
+                                <div class="email-ctn-round">
+                                    <div class="email-rdn-hd">
+                                        <h2>Jumlah Pasien per Asuransi</h2>
+                                    </div>
+                                    <div id="container"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="recent-post-wrapper notika-shadow sm-res-mg-t-30 tb-res-ds-n dk-res-ds">
+                                <div class="recent-post-ctn">
+                                    <div class="recent-post-title">
+                                        <h2>Jumlah Rujukan Pasien per PPK</h2>
+                                    </div>
+                                </div>
+                                <div class="recent-post-items">
+                                    <div id="container3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="recent-items-wp notika-shadow sm-res-mg-t-30">
+                                <div class="rc-it-ltd">
+                                    <div class="recent-items-ctn">
+                                        <div class="recent-items-title">
+                                            <h2>Jumlah Pasien per Kabupaten</h2>
+                                        </div>
+                                    </div>
+                                    <div class="recent-items-inn">
+                                        <div id="container4"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- End Email Statistic area-->
+            <!-- Start Realtime sts area-->
+            <div class="realtime-statistic-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="add-todo-list notika-shadow mg-t-30">
+                                <div class="realtime-ctn">
+                                    <div class="realtime-title">
+                                        <h2>Top 5 Pasien Asuransi </h2>
+                                    </div>
+                                </div>
+                                <div class="card-box">
+                                    <div class="todoapp">
+                                        <div class="fm-checkbox">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <label><input type="radio" value="option1" name="a" class="i-checks"> <i></i> Tertinggi</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <label><input type="radio" value="option2" name="a" class="i-checks"> <i></i> Terrendah</label>
+                                                </div>  
+                                            </div>                                      
+                                        </div>
+                                        <div id="container5"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="notika-chat-list notika-shadow mg-t-30 tb-res-ds-n dk-res-ds">
+                                <div class="realtime-ctn">
+                                    <div class="realtime-title">
+                                        <h2>Top 5 Pasien Demografi</h2>
+                                    </div>
+                                </div>
+                                <div class="card-box">
+                                    <div class="chat-conversation">
+                                        <div class="fm-checkbox">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <label><input type="radio" value="option1a" name="b" class="i-checks"> <i></i> Tertinggi</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <label><input type="radio" value="option2a" name="b" class="i-checks"> <i></i> Terrendah</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="container6"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Realtime sts area-->
+
+            <!-- Start Google Review-->
+            <div class="realtime-statistic-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="realtime-wrap notika-shadow mg-t-30">
+                                <div class="realtime-ctn">
+                                    <div class="realtime-title">
+                                        <h2>Ulasan Google</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <iframe src="https://rsiypdhi.com/ulasan/" height="250" width="1150" title="Iframe Example"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Realtime sts area-->
         </div>
-        <!-- End Realtime sts area-->
-    </div>
 

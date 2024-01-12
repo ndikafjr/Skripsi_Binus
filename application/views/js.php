@@ -634,8 +634,7 @@ Highcharts.chart('container5', {
         { name: 'Edge', y: 12.66 },
         { name: 'Firefox', y: 4.96 },
         { name: 'Safari', y: 2.49 },
-        { name: 'Internet Explorer', y: 2.31 },
-        { name: 'Other', y: 3.398 }
+        { name: 'Internet Explorer', y: 2.31 }
         ]
     }]
 });
@@ -693,8 +692,7 @@ Highcharts.chart('container6', {
         { name: 'Edge', y: 12.66 },
         { name: 'Firefox', y: 4.96 },
         { name: 'Safari', y: 2.49 },
-        { name: 'Internet Explorer', y: 2.31 },
-        { name: 'Other', y: 3.398 }
+        { name: 'Internet Explorer', y: 2.31 }
         ]
     }]
 });
